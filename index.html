@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templet2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="part1">
+            <h2>Personal Information</h2>
+            <p class="Info">Use a permanent address where you can <br>receive mail</p>
+        </div>
+        <form action="" onsubmit="alert('YOUR DATA HAS SAVED!!')">
+            <div class="profile" align="center">
+                <img src="image.jpg" width="150vw" height="150vh" id="profile-pic">
+            </div>
+            <div class="picChange">
+                <label for="input-file">Change avatar</label>
+                <input type="file" accept="image/jpg, image/png, video/gif" id="input-file">
+            </div>
+    </div>
+    <div class="name">
+        <div class="fname">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+        </div>
+        <div class="lname">
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required>
+        </div>
+    </div>
+    <div class="mail">
+        <label for="mail">Email</label><br>
+        <input type="text" id="email" name="Email" required>
+    </div>
+    <div class="username">
+        <label for="username">Username:</label><br>
+        <input type="text" id="uname" name="username" required><br>
+    </div>
+    <div class="Timezone">
+        <label for="timezone">Timezone:</label><br>
+        <select name="timezone" required>
+            <option value="1">Pacific Stardard Time</option>
+            <option value="2">Atlantic Standard Time </option>
+            <option value="3">Central Standard Time</option>
+            <option value="4">Eastern Standard Time</option>
+        </select>
+    </div>
+    <div class="button">
+        <input type="submit" value="Save">
+    </div>
+    </form>
+    <script>
+        let profilePic = document.getElementById("profile-pic");
+        let inputFile = document.getElementById("input-file");
+        inputFile.onchange = funtion()
+        {
+            profilePic.src = URL.createObjectURL(inputFile.files[0]);
+        }
+    </script>
+</body>
+
+</html>

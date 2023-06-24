@@ -1,0 +1,128 @@
+*{
+    background-color: rgb(1, 17, 33);
+    color: aliceblue;
+}
+.bg{
+ display: flex;
+}
+.part1{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.Info{
+    color: rgb(144, 144, 144);
+    font-size: 20px;
+}
+
+.profile{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.profile img{
+    border-radius: 10%;
+    position:fixed;
+}
+
+.btn{
+    background-color:  rgb(118, 120, 122);
+    border-radius: 10px;  
+    margin-left: 25px;
+    width: 9vw;
+    height: 5vh;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.name{
+    display: flex;
+    padding-left: 470px;
+    padding-top: 30px;
+}
+
+.fname
+{ 
+    margin-right: 90px;
+}
+.fname input{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(118, 120, 122);
+    border-radius: 4px;
+}
+.lname input
+{ 
+    width: 300px;
+    height: 29px;
+    background-color: rgb(118, 120, 122);
+    border-radius: 4px;
+}
+
+.mail
+{
+    padding-left: 470px;
+    padding-top: 30px;
+}
+.mail input
+{
+    width: 700px;
+    height: 30px;
+    background-color: rgb(118, 120, 122);
+    border-radius: 4px;
+}
+.username{
+    padding-left: 469px;
+    padding-top: 30px;
+}
+.username input
+{
+    width: 700px;
+    background-color: rgb(118, 120, 122);
+    border-radius: 4px;
+    height: 30px;
+}
+.Timezone
+{
+    padding-left: 470px;
+    padding-top: 30px;
+}
+.Timezone select
+{
+    width: 710px;
+    height: 30px;
+    background-color: rgb(118, 120, 122);
+    border-radius: 4px;
+}
+.button{
+    padding-left: 448px;
+}
+.button input{
+    background-color:  rgb(7, 61, 114);
+    border-radius: 10px;  
+    margin-left: 25px;
+    width: 5vw;
+    height: 5vh;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.picChange label {
+    display: block;
+    background-color: rgb(74, 74, 74);
+    border: none;
+    border-radius: 5px;
+    width: 10vw;
+    height: 4vh;
+    margin: 10px;
+    font-size: 17px;
+    text-align:center;
+    cursor: pointer;
+    margin-left: 170%;
+    margin-top: 30px;
+}
+
+.picChange input {
+    display:none;
+}
+
+
+
+
